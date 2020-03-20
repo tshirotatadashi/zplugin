@@ -5,7 +5,7 @@
 reports](DONATIONS.md) about what is being done with the money received.
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/zdharma/zplugin/master/doc/img/zplugin.png" />
+<img src="https://raw.githubusercontent.com/tshirotatadashi/zplugin/master/doc/img/zplugin.png" />
 </p>
 
 [![Status][status-badge]][status-link] [![MIT License][MIT-badge]][MIT-link] [![][ver-badge]][ver-link] ![][act-badge] [![Chat at https://gitter.im/zplugin/Lobby][lobby-badge]][lobby-link]
@@ -193,7 +193,7 @@ The information in this README is complemented by the [Zplugin wiki](http://zdha
 The easiest way to install Zplugin is to execute: 
 
 ```zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zplugin/master/doc/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/tshirotatadashi/zplugin/master/doc/install.sh)"
 ```
 
 This will install Zplugin in `~/.zplugin/bin`. `.zshrc` will be updated with three
@@ -207,7 +207,7 @@ To manually install Zplugin clone the repo to e.g. `~/.zplugin/bin`:
 
 ```sh
 mkdir ~/.zplugin
-git clone https://github.com/zdharma/zplugin.git ~/.zplugin/bin
+git clone https://github.com/tshirotatadashi/zplugin.git ~/.zplugin/bin
 ```
 
 and source it from `.zshrc` (above compinit):
@@ -646,7 +646,7 @@ source smaller helper scripts or dependency libraries (for example, the prompt `
 and there are very few solutions to that, which are demanding (e.g. specifying all helper files in plugin load
 command and tracking updates to the plugin – in Zplugin case: by using `compile` ice-mod).
 
-  ![image](https://raw.githubusercontent.com/zdharma/zplugin/images/mod-auto-compile.png)
+  ![image](https://raw.githubusercontent.com/tshirotatadashi/zplugin/images/mod-auto-compile.png)
 
 ## Installation
 
@@ -656,7 +656,7 @@ To install just the binary Zplugin module **standalone** (Zplugin is not needed,
 other plugin manager), execute:
 
 ```zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zplugin/master/doc/mod-install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/tshirotatadashi/zplugin/master/doc/mod-install.sh)"
 ```
 
 This script will display what to add to `~/.zshrc` (2 lines) and show usage instructions.

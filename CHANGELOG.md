@@ -120,7 +120,7 @@ All notable changes to this project will be documented in this file.
 
   - Uplift of Git-output, it now has an animated progress-bar:
 
-  ![image](https://raw.githubusercontent.com/zdharma/zplugin/images/zplg-progress-bar.gif)
+  ![image](https://raw.githubusercontent.com/tshirotatadashi/zplugin/images/zplg-progress-bar.gif)
 
 * 15-08-2018
   - New `$ZPLGM` field `COMPINIT_OPTS` (also see [Customizing Paths](#customizing-paths--other)). You can pass
@@ -132,7 +132,7 @@ All notable changes to this project will be documented in this file.
 
 * 13-08-2018
   - `self-update` (subcommand used to update Zplugin) now lists new commits downloaded by the update:
-  ![image](https://raw.githubusercontent.com/zdharma/zplugin/images/zplg-self-update.png)
+  ![image](https://raw.githubusercontent.com/tshirotatadashi/zplugin/images/zplg-self-update.png)
 
   - New subcommand `bindkeys` that lists what bindkeys each plugin has set up.
 
@@ -259,7 +259,7 @@ All notable changes to this project will be documented in this file.
 * 04-11-2017
   - New subcommand `ls` which lists snippets-directory in a formatted and colorized manner. Example:
 
-  ![zplugin-ls](https://raw.githubusercontent.com/zdharma/zplugin/images/zplg-ls.png)
+  ![zplugin-ls](https://raw.githubusercontent.com/tshirotatadashi/zplugin/images/zplg-ls.png)
 
 * 29-10-2017
   - Subversion protocol (supported by Github) can be used to clone **subdirectories** when using

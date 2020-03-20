@@ -13,7 +13,7 @@ toc::[]
 Execute:
 
 ```sh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zplugin/master/doc/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/tshirotatadashi/zplugin/master/doc/install.sh)"
 ```
 
 To update run the command again (or just execute `doc/install.sh`) or run `zplugin self-update`.
@@ -33,7 +33,7 @@ To manually install `Zplugin` clone the repo to e.g. `~/.zplugin/bin`:
 
 ```sh
 mkdir ~/.zplugin
-git clone https://github.com/zdharma/zplugin.git ~/.zplugin/bin
+git clone https://github.com/tshirotatadashi/zplugin.git ~/.zplugin/bin
 ```
 
 and source it from `.zshrc` (**above compinit**):
